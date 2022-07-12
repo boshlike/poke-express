@@ -1,0 +1,20 @@
+body {
+    color: blanchedalmond;
+    background-color: steelblue;
+    text-align: center;
+}
+img {
+    border-radius: 5%;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+}
+p {
+    font-size: 2em;
+}
