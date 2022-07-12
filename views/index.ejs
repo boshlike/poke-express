@@ -15,10 +15,10 @@
 <body>
     <h1>See all the pokemon</h1>
     <ul>
-        <% pokemon.forEach(pokemon => { %>
+        <% pokemon.forEach((pokemon, idx) => { %>
             <li>
                 <p><%= pokemon.name %></p>
-                <img src="<%=pokemon.img%>.jpg">
+                <a href="http://localhost:3001/pokemon/<%=idx%>"><img src="<%=pokemon.img%>.jpg"></a>
             </li>
         <% }) %> 
     </ul>
