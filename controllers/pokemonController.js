@@ -11,7 +11,8 @@ const controller = {
         });
     },
     showPokemon: (req, res) => {
-        res.send(req.params.id);
+        const index = req.params.id;
+        res.render("show.ejs", {pokemon: pokemon[index]});
     }
 }
 module.exports = controller;
