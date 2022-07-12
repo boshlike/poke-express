@@ -14,5 +14,13 @@
 </head>
 <body>
     <h1>See all the pokemon</h1>
+    <ul>
+        <% pokemon.forEach(pokemon => { %>
+            <li>
+                <p><%= pokemon.name %></p>
+                <img src="<%=pokemon.img%>.jpg">
+            </li>
+        <% }) %> 
+    </ul>
 </body>
 </html>
