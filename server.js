@@ -12,6 +12,8 @@ app.get("/", (req, res) => {
 
 app.get("/pokemon", pokemonController.listPokemon);
 
+app.get("/pokemon/:id", pokemonController.showPokemon);
+
 app.listen(port, () => {
     console.log(`Listening on port ${port}`)
 })
