@@ -2,6 +2,7 @@ body {
     color: blanchedalmond;
     background-color: steelblue;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 img {
     border-radius: 5%;
@@ -11,9 +12,13 @@ li {
 }
 a {
     text-decoration: none;
+    color: blanchedalmond;
 }
 a:hover {
     cursor: pointer;
+}
+a:visited {
+    color: blanchedalmond;
 }
 p {
     font-size: 2em;
